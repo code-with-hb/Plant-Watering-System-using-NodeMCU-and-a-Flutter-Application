@@ -9,3 +9,6 @@ const int dry = 550;
 const int wet = 230;
 const int threshold = 340;
 const int moisturePin = A0;
+
+// Water Pump
+const int pumpPin = 2;
