@@ -17,3 +17,7 @@ const int pumpPin = 2;
 #define DHTPIN 3
 #define DHTTYPE DHT22
 DHT dht(DHTPIN, DHTTYPE);
+
+// Raindrop Sensor
+const int rainSensorPin = A1;
+const int rainThreshold = 300;
