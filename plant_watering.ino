@@ -12,3 +12,8 @@ const int moisturePin = A0;
 
 // Water Pump
 const int pumpPin = 2;
+
+// DHT22
+#define DHTPIN 3
+#define DHTTYPE DHT22
+DHT dht(DHTPIN, DHTTYPE);
