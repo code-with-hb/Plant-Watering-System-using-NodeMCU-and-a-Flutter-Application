@@ -4,3 +4,8 @@
 
 // LCD Setup
 LiquidCrystal_I2C lcd(0x27, 16, 2);
+// Moisture Sensor
+const int dry = 550;
+const int wet = 230;
+const int threshold = 340;
+const int moisturePin = A0;
